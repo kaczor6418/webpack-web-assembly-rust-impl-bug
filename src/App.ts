@@ -1,4 +1,4 @@
-import { Test } from "../calculator-engine/pkg/calculator_engine";
+import { return_char } from "../calculator-engine/pkg/calculator_engine";
 
 const template: string = `
 <h1>TEST WEB-COMPONENT - TYPESCRIPT - WEB-ASSEMBLY-RUST - WEBPACK</h1>
@@ -13,10 +13,7 @@ export class App extends HTMLElement {
         super();
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = template;
-        const test: Test = Test.new();
-        console.log(test.value());
-        test.change_value();
-        console.log(test.value());
+        console.log(return_char());
     }
 }
 customElements.define(App.TAG, App);
