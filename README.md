@@ -1,4 +1,4 @@
->This is repository with minimal code example to reproduce `Can not use web-assembly rust impl` bug
+>This is repository with minimal code example needed to reproduce `Can not use web-assembly rust impl` bug
 
 # Repro steps
 
