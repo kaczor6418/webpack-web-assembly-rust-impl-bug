@@ -1,4 +1,5 @@
 >This is repository with minimal code example needed to reproduce `Can not use web-assembly rust impl` bug
+I created a new repositroy in which I am showing how to set up WebAssembly-Rust procjet you can find it here: **[web-assembly-rust-typescript-template](https://github.com/kaczor6418/web-assembly-rust-typescript-template)**
 
 # Repro steps
 
